@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:mittora/constant.dart';
 import 'package:mittora/beranda/beranda_view.dart';
-import 'package:mittora/users/Akun.dart';
-import 'package:mittora/users/Beranda.dart';
+import 'package:mittora/users/Inbox.dart';
+import 'package:mittora/users/beranda.dart';
 import 'package:mittora/users/Pesanan.dart';
 
 class LandingPage extends StatefulWidget {
