@@ -38,7 +38,8 @@ class _BerandaState extends State<Beranda> with SingleTickerProviderStateMixin {
           style: TextStyle(fontSize: 15),
           decoration: InputDecoration(
               hintText: 'Search',
-              prefixIcon: Icon(Icons.search, color: MittoraPalette.green),
+              prefixIcon:
+                  Icon(Icons.search, color: MittoraPalette.menuBluebird),
               contentPadding: const EdgeInsets.symmetric(vertical: 10.0),
               border: OutlineInputBorder(
                 borderRadius: BorderRadius.circular(10),
@@ -50,8 +51,8 @@ class _BerandaState extends State<Beranda> with SingleTickerProviderStateMixin {
         backgroundColor: MittoraPalette.menuBluebird,
         bottom: TabBar(
           controller: _tabController,
-          indicatorColor: MittoraPalette.green,
-          labelColor: MittoraPalette.green,
+          indicatorColor: MittoraPalette.menuBluebird,
+          labelColor: MittoraPalette.menuBluebird,
           unselectedLabelColor: Colors.black,
           labelPadding: EdgeInsets.all(0),
           tabs: [Tab(text: 'Beranda'), Tab(text: 'Kategori')],
