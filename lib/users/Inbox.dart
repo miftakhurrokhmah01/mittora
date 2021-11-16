@@ -14,7 +14,7 @@ class _AkunState extends State<Akun> {
       ),
       body: Center(
         child: Text(
-          'Inbox',
+          'mican',
         ),
       ),
     );

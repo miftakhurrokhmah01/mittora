@@ -9,8 +9,8 @@ class Beranda extends StatefulWidget {
 }
 
 class _BerandaState extends State<Beranda> with SingleTickerProviderStateMixin {
-  TabController _tabController;
-  int _activeTabIndex;
+  late TabController _tabController;
+  late int _activeTabIndex;
 
   @override
   void initState() {
@@ -51,8 +51,8 @@ class _BerandaState extends State<Beranda> with SingleTickerProviderStateMixin {
         backgroundColor: MittoraPalette.menuBluebird,
         bottom: TabBar(
           controller: _tabController,
-          indicatorColor: MittoraPalette.menuBluebird,
-          labelColor: MittoraPalette.menuBluebird,
+          indicatorColor: MittoraPalette.grey,
+          labelColor: MittoraPalette.grey,
           unselectedLabelColor: Colors.black,
           labelPadding: EdgeInsets.all(0),
           tabs: [Tab(text: 'Beranda'), Tab(text: 'Kategori')],
